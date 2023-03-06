@@ -1,5 +1,30 @@
-﻿################################################################################
-# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
-################################################################################
+﻿# Ignorar los archivos de respaldo de Visual Studio
+*~
+*.bak
 
-/.vs/App/FileContentIndex
+# Ignorar archivos de caché y de compilación
+*.cache
+*.dll
+*.exe
+*.pdb
+*.obj
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.ilk
+*.aps
+*.pch
+*.res
+
+# Ignorar archivos de configuración
+*.config
+*.csproj.user
+*.user
+*.sln.docstates
+
+# Ignorar directorios específicos
+/bin/
+/obj/
+/packages/
+/.vs/
